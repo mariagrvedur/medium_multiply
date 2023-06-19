@@ -14,12 +14,12 @@ with open(path.join(HERE, 'README.md'), encoding='utf-8') as f:
 
 # This call to setup() does all the work
 setup(
-    name="medium-multiply",
-    version="0.1.0",
+    name="medium-multiply23",
+    version="0.1.1",
     description="Demo library",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://medium-multiply.readthedocs.io/",
+    url="https://medium-multiply23.readthedocs.io/",
     author="Maria G",
     author_email="mariagr@vedur.is",
     license="MIT",
@@ -37,7 +37,7 @@ setup(
         "Programming Language :: Python :: 3.12",
         "Operating System :: OS Independent"
     ],
-    packages=["medium_multiply"],
+    packages=["medium_multiply23"],
     include_package_data=True,
     install_requires=["numpy"]
 )
